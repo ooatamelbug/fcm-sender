@@ -30,7 +30,7 @@ const intialFCM = new FCMSender('APA91bExJnQUo_83d24xB2ZsfYRX....');
 ```javascript
 
 //put your option in second step
-const dataSendToSepicficMobil  = new FCMSender.sendForMobileToken({
+const dataSendToSepicficMobil  = new FCMSender.sendForMobileToken(intialFCM,{
     receivers : 'APNAPA91bE9kJIXCHe62jKDf....',
     notification : {
         title : 'notification title',
@@ -55,7 +55,7 @@ send notification to all device by specific topic you can use sendForMobileTopic
 
 ```javascript
 
-const dataSendToSepicficMobil  = new FCMSender.sendForMobileTopic({
+const dataSendToSepicficMobil  = new FCMSender.sendForMobileTopic(intialFCM,{
     topic : 'your topic hear', //topic that can recived notification 
     notification : {
         title : 'notification title',
@@ -89,7 +89,7 @@ send to one device or group
 ```javascript
 
 //code send to mobile
-const dataSendToSepicficMobil  = new FCMSender.sendForMobileToken({
+const dataSendToSepicficMobil  = new FCMSender.sendForMobileToken(intialFCM,{
     receivers : 'APNAPA91bE9kJIXCHe62jKDf....', // the reciver mobile registeration token 
     notification : {
         title : 'notification title',
