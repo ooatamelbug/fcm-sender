@@ -1,0 +1,28 @@
+{
+  "name": "fcm-sender",
+  "version": "1.0.0",
+  "description": "firebase cloud message nodejs package",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "fcm",
+    "fcm-sender",
+    "notification",
+    "message"
+  ],
+  "repository" :{
+    "type": "git",
+    "url": "https://github.com/ooatamelbug/fcm-sender.git"
+  },
+  "author": "moh18",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ooatamelbug/fcm-sender/issues"
+  },
+  "homepage": "https://github.com/ooatamelbug/fcm-sender#readme",
+  "dependencies": {
+    "axios": "^0.19.2"
+  }
+}
